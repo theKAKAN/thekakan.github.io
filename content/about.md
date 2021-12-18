@@ -32,8 +32,8 @@ _Oh! By the way, I love Foxes!_
 
 Well, there's that. Moving on to more interesting things, I'm interested in
  trying out different technical solutions for web. This site is made using
- [Hugo]() and hosted using [Github Pages](),
- and for the most part, written using a text editor [Sublime Text 4]()
+ [Hugo](https://gohugo.io/) and hosted using [Github Pages](https://pages.github.com/),
+ and for the most part, written using a text editor [Sublime Text 4](https://www.sublimetext.com/)
  rather than a WSYIWYG editor. Time will tell if this works out for me.  
 
 

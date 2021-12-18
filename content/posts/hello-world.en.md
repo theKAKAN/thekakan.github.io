@@ -13,3 +13,8 @@ readingTime = true
 +++
 
 Hello world! This is my first Hugo post
+
+
+Also, let's just try including an image because why not:
+
+![Alt text](/cover.jpg)
