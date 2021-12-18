@@ -1,0 +1,159 @@
+baseURL = "https://hugo-profile.netlify.app"
+languageCode = "en-us"
+title = "Hugo-profile"
+theme = "./.."
+relativeURLs = true
+googleanalytics = "UA-xxxxxx-x"
+Paginate = 3
+enableEmoji = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[params]
+version = 3
+customCSS = false
+favicon = "/images/fav.png"
+description = "A high performance hugo theme for personal portfolio and blog."
+disable_home = false
+profile_image = "/images/profile.png"
+name = "Example name"
+namecolor = "ffc107"
+profession = "Profession"
+github = "https://github.com"
+gitlab = "https://gitlab.com"
+linkedin = "https://linkedin.com"
+twitter = "https://twitter.com/"
+instagram = "https://instagram.com/"
+facebook = "https://facebook.com"
+disable_about = false
+descripe_l1_person = "Hi, I'm Profile, a passionate web developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+descripe_l2_person = "This is a example template for about section. You can find my works [here](#projects)"
+disable_experience = false
+disable_education = false
+disable_projects = false
+disable_achievements = false
+disable_contact = false
+contact_content = "My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!"
+email = "example@mail.com"
+socialiconfooter = true
+recentposts = true
+showdescription = false
+tweet = true
+
+  [[params.customMenus]]
+  name = "Blog"
+  Url = "/blog"
+
+  [[params.customSocialLinks]]
+  imageURL = "https://hugo-profile.netlify.app/images/fav.png"
+  url = "https://gohugo.com"
+
+  [[params.customSocialLinks]]
+  fontAwesomeIconName = "fa fa-envelope"
+  url = "https://gmail.com"
+
+  [[params.skills]]
+  name = "CSS"
+  percentage = 90
+
+  [[params.skills]]
+  name = "Django"
+  percentage = 85
+
+  [[params.skills]]
+  name = "Hugo"
+  percentage = 80
+
+  [[params.skills]]
+  name = "React JS"
+  percentage = 70
+
+  [[params.experience]]
+  company = "Google"
+  role = "Software developer"
+  startdate = "Feb 2021"
+  enddate = "present"
+
+    [[params.experience.featuredpoints]]
+    point = "Lead backend developer for a product."
+
+    [[params.experience.featuredpoints]]
+    point = "Created a frontend design for a product."
+
+  [[params.experience]]
+  company = "Facebook"
+  role = "Fullstack developer"
+  startdate = "Mar 2020"
+  enddate = "Dec 2020"
+
+    [[params.experience.featuredpoints]]
+    point = "Lead backend developer for a product."
+
+    [[params.experience.featuredpoints]]
+    point = "Created a frontend design for a product."
+
+  [[params.experience]]
+  company = "Amazon"
+  role = "Fullstack developer"
+  startdate = "Feb 2019"
+  enddate = "Jan 2020"
+
+    [[params.experience.featuredpoints]]
+    point = "Lead backend developer for a product."
+
+    [[params.experience.featuredpoints]]
+    point = "Created a frontend design for a product."
+
+  [[params.education]]
+  degree = "B.tech"
+  branch = "Information Technology"
+  university = "Example university"
+  startedyear = "2013"
+  graduation = "2018"
+
+  [[params.education]]
+  degree = "Degree"
+  branch = "Branch"
+  university = "Example university"
+  startedyear = "year"
+  graduation = "year"
+
+  [[params.education]]
+  degree = "Degree"
+  branch = "Branch"
+  university = "Example university"
+  startedyear = "year"
+  graduation = "year"
+
+  [[params.projects]]
+  name = "Example project without details"
+  img = "/images/project.jpg"
+  githublink = "https://github.com/"
+  featuredlink = "/"
+  description = "Description of project"
+
+  [[params.achievements]]
+  title = "Competition winner"
+  description = "We are developed a product which can help others."
+  img = "/images/achiv.jpg"
+  url = "https://example.com"
+
+  [[params.achievements]]
+  title = "Competition winner"
+  description = "We are developed a product which can help others."
+  img = "/images/achiv.jpg"
+
+  [[params.achievements]]
+  title = "Competition winner"
+  description = "We are developed a product which can help others."
+  img = "/images/achiv.jpg"
+
+  [[params.achievements]]
+  title = "Competition winner"
+  description = "We are developed a product which can help others."
+  img = "/images/achiv.jpg"
