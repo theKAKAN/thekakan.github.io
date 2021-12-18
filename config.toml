@@ -4,6 +4,14 @@ theme = "terminal"
 paginate = 5
 enableGitInfo = true
 
+# Needed for RSS, it seems
+copyright = "Copyright © 2021 KAKAN. All Rights Reserved"
+rssLimit = 20
+
+[author]
+  name = "KAKAN"
+  email = "kakan@disroot.org"
+
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
@@ -16,7 +24,7 @@ enableGitInfo = true
   showMenuItems = 3
 
   # show selector to switch language
-  showLanguageSelector = true
+  showLanguageSelector = false
 
   # set theme to full screen width
   fullWidthTheme = false
@@ -55,10 +63,10 @@ enableGitInfo = true
   [languages.en]
     languageName = "English"
     title = "KAKAN"
-    subtitle = "A blog about stuff I like or am doing"
+    subtitle = "An about me, a blog and basically my whole online presence"
     owner = "KAKAN"
     keywords = ""
-    copyright = ""
+    copyright = "Copyright © 2021 KAKAN. All Rights Reserved"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
