@@ -17,4 +17,8 @@ readingTime = false
 # Other profiles
 
 I've one at [omg.lol](https://profile.omg.lol/kakan).  
-I do have a Linkedin account, but since I'm using a pseudonym, I'm not willing to reveal it...
+I do have a Linkedin account, but I'd like to remain pseudonymous, so I'm using a pseudonym
+
+# Like what I do?
+
+[{{< image src=/images/bmc-button.svg alt="Buy me a coffee" style="height: 3em !important; width: 10em !important;" >}}](https://www.buymeacoffee.com/kakan)

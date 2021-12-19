@@ -7,16 +7,16 @@ showFullContent = true
 readingTime = false
 +++
 
-# Hi There
+# Hi There!
 
-I go by Hazel
+I go by KAKAN (_They/Them_)
 
-...or KAKAN, meaning cookie.
+...or Hazel, based on one of my favourite characters and claimed eye colour.
 
 I'm a student as well as a data nerd, aiming to be a backend dev.  
 I'm quite shy, but I like socialising with new people and learning new stuff!  
 
-_It's exciting!_
+_It's rather exciting!_
 
 ---
 
