@@ -5,17 +5,17 @@ paginate = 5
 enableGitInfo = true
 
 # Needed for RSS, it seems
-copyright = "Copyright © 2021 KAKAN. All Rights Reserved"
+copyright = "Copyright © 2021 Gboyz. All Rights Reserved"
 rssLimit = 20
 
 [author]
-  name = "KAKAN"
-  email = "kakan@disroot.org"
+  name = "VCMP"
+  email = "vcmp@gboyz.xyz"
 
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+  contentTypeName = "details"
 
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "orange"
@@ -57,16 +57,16 @@ rssLimit = 20
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
   creator = "ThKAKAN"
-  site = "https://thekakan.github.io"
+  site = "https://gboyz.vcmp"
 
 [languages]
   [languages.en]
     languageName = "English"
-    title = "KAKAN"
-    subtitle = "An about me, a blog and basically my whole online presence"
-    owner = "KAKAN"
+    title = "VCMP"
+    subtitle = "All about our VCMP server"
+    owner = "Gboyz"
     keywords = ""
-    copyright = "Copyright © 2021 KAKAN. All Rights Reserved"
+    copyright = "Copyright © 2021 Gboyz. All Rights Reserved"
     menuMore = "Show more"
     readMore = "Dive in"
     readOtherPosts = "Read other posts"
@@ -76,19 +76,15 @@ rssLimit = 20
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "KAKAN"
+      logoText = "Gboyz"
       logoHomeLink = "/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+        identifier = "updates"
+        name = "Updates"
+        url = "/updates"
        [[languages.en.menu.main]]
-        identifier = "contact-me"
-        name = "Contact"
-        url = "/contact-me"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "home"
+        name = "Links"
+        url = "/links"
