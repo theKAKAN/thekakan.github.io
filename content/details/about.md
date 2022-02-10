@@ -17,7 +17,7 @@ No worries, reader! Head over to https://vc-mp.org/ and download the client to g
 You'll need to have GTA:VC installed for this mod to work.  
 _**Note**: Steam version doesn't seem to work with this mod for now_
 
-**Returning Player? Here are the server details: **
+**Returning Player? Here are the server details:**
  * Server IP: vcmp.gboyz.xyz:8192
  * Find more links [here](/links)
 
