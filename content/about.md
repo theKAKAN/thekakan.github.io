@@ -9,14 +9,15 @@ readingTime = false
 
 # Hi There!
 
-I go by KAKAN (_They/Them_)
+I go by KAKAN (_He/Him_)
 
 ...or Hazel, based on one of my favourite characters and claimed eye colour.
 
-I'm a student as well as a data nerd, aiming to be a backend dev.  
-I'm quite shy, but I like socialising with new people and learning new stuff!  
+I'm a student who likes playing with data, aiming to be a backend dev.  
+I like meeting with new people and learning new stuff!  
 
-_It's rather exciting!_
+
+_It's fun!_
 
 ---
 
@@ -38,6 +39,6 @@ Well, there's that. Moving on to more interesting things, I'm interested in
 
 
 
-Hope you liked this website and my (_probably_) really bad introduction.
+Hope you liked this website and my introduction.
 
-See ya!
+See ya soon!
