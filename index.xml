@@ -42,14 +42,16 @@ I do have a Linkedin account, but I&amp;rsquo;d like to remain pseudonymous, so 
 &lt;img src="https://kakan.omg.lol/images/bmc-button.svg" alt="Buy me a coffee" class="left" style="height: 3em !important; width: 10em !important;" />
 &lt;/a>&lt;/p></content></item><item><title>Showcase</title><link>https://kakan.omg.lol/showcase/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>kakan@disroot.org (KAKAN)</author><guid>https://kakan.omg.lol/showcase/</guid><description>I&amp;rsquo;ve made some game servers, most of which are still running but are private.
 The public ones, for now (could already be private by the time someone reads this):
-VCMP CSGO MTA:SA Aside from game servers, I&amp;rsquo;ve mostly done analysis on publicly available datasets, so there&amp;rsquo;s not much to show here.
-Most of my other stuff is available for everyone to view at either Github or my private Gitea server. Well, not like there&amp;rsquo;s much to see either way&amp;hellip;</description><content>&lt;p>I&amp;rsquo;ve made some game servers, most of which are still running but are private.&lt;br>
+VCMP CSGO at csgo.gboyz.xyz:27015 MTA:SA Aside from game servers, I&amp;rsquo;ve mostly done analysis on publicly available datasets, so there&amp;rsquo;s not much to show here.
+There are also a few more projects that I would like to try, but as of now, I&amp;rsquo;m doing my best to familiarise myself with the OSS world.</description><content>&lt;p>I&amp;rsquo;ve made some game servers, most of which are still running but are private.&lt;br>
 The public ones, for now (&lt;em>could already be private by the time someone reads this&lt;/em>):&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="vcmp://65.2.65.211:8192">VCMP&lt;/a>&lt;/li>
-&lt;li>CSGO&lt;/li>
+&lt;li>&lt;a href="vcmp://vcmp.gboyz.xyz:8192">VCMP&lt;/a>&lt;/li>
+&lt;li>CSGO at &lt;a href="csgo.gboyz.xyz:27015">csgo.gboyz.xyz:27015&lt;/a>&lt;/li>
 &lt;li>MTA:SA&lt;/li>
 &lt;/ul>
 &lt;p>Aside from game servers, I&amp;rsquo;ve mostly done analysis on publicly available datasets, so there&amp;rsquo;s not much to show here.&lt;/p>
-&lt;p>Most of my other stuff is available for everyone to view at either &lt;a href="https://github.com/theKAKAN">Github&lt;/a> or &lt;a href="https://git.kakan.omg.lol">my private Gitea server&lt;/a>.
-Well, not like there&amp;rsquo;s much to see either way&amp;hellip;&lt;/p></content></item></channel></rss>
+&lt;p>There are also a few more projects that I would like to try, but as of now, I&amp;rsquo;m doing my best to familiarise myself with the OSS world.
+That includes contributing in various non-code formats, like creating issues or taking part in discussions.&lt;/p>
+&lt;p>Most of that can be found in GitHub, GitLab and specific git servers related to various projects (&lt;em>like GNOME&lt;/em>)&lt;/p>
+&lt;p>Most of my other stuff is available for everyone to view at either &lt;a href="https://github.com/theKAKAN">Github&lt;/a> or &lt;a href="https://git.kakan.omg.lol">my private Gitea server&lt;/a>.&lt;/p></content></item></channel></rss>
