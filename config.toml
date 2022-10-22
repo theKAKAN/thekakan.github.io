@@ -49,7 +49,7 @@ rssLimit = 20
 
   # set all headings to their default size (depending on browser settings)
   # it's set to `true` by default
-  # oneHeadingSize = false
+  oneHeadingSize = false
 
 
 [params.twitter]
@@ -66,7 +66,7 @@ rssLimit = 20
     subtitle = "An about me, a blog and basically my whole online presence"
     owner = "KAKAN"
     keywords = ""
-    copyright = "Copyright © 2021 KAKAN. All Rights Reserved"
+    copyright = "Copyright © 2022 KAKAN. All Rights Reserved"
     menuMore = "Show more"
     readMore = "Dive in"
     readOtherPosts = "Read other posts"
