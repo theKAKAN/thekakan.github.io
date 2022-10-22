@@ -1,4 +1,89 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>KAKAN</title><link>https://kakan.omg.lol/</link><description>Recent content on KAKAN</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>kakan@disroot.org (KAKAN)</managingEditor><webMaster>kakan@disroot.org (KAKAN)</webMaster><copyright>Copyright © 2021 KAKAN. All Rights Reserved</copyright><lastBuildDate>Sat, 18 Dec 2021 19:36:06 +0530</lastBuildDate><atom:link href="https://kakan.omg.lol/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://kakan.omg.lol/posts/hello-world/</link><pubDate>Sat, 18 Dec 2021 19:36:06 +0530</pubDate><author>kakan@disroot.org (KAKAN)</author><guid>https://kakan.omg.lol/posts/hello-world/</guid><description>Hello world! This is my first Hugo post
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>KAKAN</title><link>https://kakan.omg.lol/</link><description>Recent content on KAKAN</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>kakan@disroot.org (KAKAN)</managingEditor><webMaster>kakan@disroot.org (KAKAN)</webMaster><copyright>Copyright © 2022 KAKAN. All Rights Reserved</copyright><lastBuildDate>Sat, 15 Oct 2022 14:09:08 +0530</lastBuildDate><atom:link href="https://kakan.omg.lol/index.xml" rel="self" type="application/rss+xml"/><item><title>Experience with Jellyfin</title><link>https://kakan.omg.lol/posts/jellyfin/</link><pubDate>Sat, 15 Oct 2022 14:09:08 +0530</pubDate><author>kakan@disroot.org (KAKAN)</author><guid>https://kakan.omg.lol/posts/jellyfin/</guid><description>Before we go further, I&amp;rsquo;d first like to say that I absolutely love using Jellyfin and I&amp;rsquo;ll continue using it after this, too.
+Let&amp;rsquo;s start with the advantages!
+Advantages: 1. Media metadata This is basically the reason why people would want Jellyfin over say, a file manager. It manages to grab most of my media automatically from different sites, and it&amp;rsquo;s really accurate at it too!
+And if that wasn&amp;rsquo;t enough, it also fetches actor information, networks etc and lets you browse according to that, too.</description><content>&lt;p>Before we go further, I&amp;rsquo;d first like to say that I absolutely love using &lt;a href="https://jellyfin.org/">Jellyfin&lt;/a>
+and I&amp;rsquo;ll continue using it after this, too.&lt;/p>
+&lt;p>Let&amp;rsquo;s start with the advantages!&lt;/p>
+&lt;hr>
+&lt;h1 id="advantages">Advantages:&lt;/h1>
+&lt;hr>
+&lt;h2 id="1-media-metadata">1. Media metadata&lt;/h2>
+&lt;p>This is basically the reason why people would want Jellyfin over say, a file
+manager. It manages to grab most of my media automatically from different
+sites, and it&amp;rsquo;s really accurate at it too!&lt;/p>
+&lt;p>And if that wasn&amp;rsquo;t enough, it also fetches actor information, networks etc and
+lets you browse according to that, too.&lt;/p>
+&lt;h2 id="2-playback-historystatistics">2. Playback History/Statistics&lt;/h2>
+&lt;p>Another reason I like it is because of &lt;a href="https://github.com/jellyfin/jellyfin-plugin-playbackreporting/">Playback reporting&lt;/a>
+which offers a nice view of how much I&amp;rsquo;ve watched, or how many. I love seeing
+data and this is really nice since it&amp;rsquo;s a centralised place for all my users.&lt;/p>
+&lt;h2 id="3-sync-with-other-services">3. Sync with other services&lt;/h2>
+&lt;p>Jellyfin has plugins to sync watch lists and library with services like &lt;a href="https://github.com/jellyfin/jellyfin-plugin-trakt">Trakt.&lt;/a>&lt;/p>
+&lt;p>This is really nice, especially if you want to know if you already have
+something in your library, or if you need to download/rip it from somewhere.&lt;/p>
+&lt;p>It also has your watch history, and Trakt itself provides a lot of statistics
+which adds to its feature set, in my opinion.&lt;/p>
+&lt;h2 id="4-plugins">4. Plugins&lt;/h2>
+&lt;p>By default, only point 1 is possible OOTB. However, with the help of its plugin
+ecosystem, you can add various things to it, like the above mentioned features.&lt;/p>
+&lt;p>This is something all of the competition has, but I still felt like I should
+atleast mention it.&lt;/p>
+&lt;h2 id="5-multiple-users">5. Multiple Users&lt;/h2>
+&lt;p>This is also something that sets Jellyfin apart from &amp;ldquo;local&amp;rdquo; media managers
+which let you store, view and update metadata and keep a playback history,
+but tie it to a single user. Often times, its annoying and also cannot be
+changed since its usually stored in NFO files.&lt;/p>
+&lt;p>Oh, that reminds me, Jellyfin has an option to store metadata in NFO files
+at the location, which I always keep turned off because I like them
+directories kept clean! :yum:&lt;/p>
+&lt;hr>
+&lt;h1 id="disadvantages">Disadvantages:&lt;/h1>
+&lt;hr>
+&lt;p>Time to move on to the not-so-good parts in my experience of self hosting Jellyfin&amp;hellip;&lt;/p>
+&lt;h2 id="1-mixed-libraries-dont-work-well">1. Mixed Libraries don&amp;rsquo;t work well&lt;/h2>
+&lt;p>I don&amp;rsquo;t think it&amp;rsquo;s a surprise to anybody, but if you have a lot of mixed content
+i.e, TV shows and movies in one folder (&lt;em>say you have one folder for all Anime&lt;/em>),
+then you should consider moving them to different folders.&lt;/p>
+&lt;p>The problem arises since Jellyfin can no longer safely say &amp;ldquo;this is a movie&amp;rdquo;,
+or that &amp;ldquo;this is a series&amp;rdquo;, so in the end you&amp;rsquo;ll end up with multiple movies
+marked as series and vice versa. It&amp;rsquo;s mildly annoying at best, and unfixable
+at worst.&lt;/p>
+&lt;p>&lt;strong>My solution&lt;/strong>: I moved Anime movies into my main Movies library, and then created
+a collection of all the anime movies. That way, I can still browse them separately.&lt;/p>
+&lt;h2 id="2-lack-of-plugins">2. Lack of Plugins&lt;/h2>
+&lt;p>This is mostly because Jellyfin is changing from Emby, so plugins made for Emby
+might not work anymore. And because Jellyfin itself is getting updated, older
+and unmaintained plugins might not work anymore either. While there are some
+really good plugins that do work, it&amp;rsquo;d be nice if there were even more maintained
+ones available to use&amp;hellip;&lt;/p>
+&lt;p>Unfortuneately, this is kind of a chicken egg problem and I&amp;rsquo;ve no idea how this
+might get solved. That said, there are some really good plugins out there, I even
+&lt;a href="https://github.com/stars/theKAKAN/lists/jellyfin-plugins">made a list of ones I found interesting&lt;/a>!&lt;/p>
+&lt;h2 id="3-metadata-searchupdate-is-slow">3. Metadata Search/Update is&amp;hellip; slow&lt;/h2>
+&lt;p>I&amp;rsquo;m not sure why this happens, but if you have multiple metadata providers,
+you&amp;rsquo;ll likely experience major slowdowns if you enter broad enough terms for
+searching.&lt;/p>
+&lt;p>Oh, and sometimes the images don&amp;rsquo;t get updated. Maybe it&amp;rsquo;s a cache issue, I&amp;rsquo;m not sure&amp;hellip;&lt;/p>
+&lt;p>&lt;strong>My solution&lt;/strong>: I grab the IMDb ID and search via that, in case the builtin
+metadata downloader gets/grabs the wrong metadata&lt;/p>
+&lt;h2 id="4-tv-shows-are-kind-of-a-mess">4. TV Shows are kind of a mess&amp;hellip;&lt;/h2>
+&lt;p>Honestly, this is more of a standard/naming problem than it is with Jellyfin,
+but nonetheless, it&amp;rsquo;s a problem that I experienced a lot.&lt;/p>
+&lt;p>Basically, many series are listed differently under different providers.&lt;br>
+For example:&lt;/p>
+&lt;ul>
+&lt;li>Kitsu has 6 different entries for &amp;ldquo;My Hero Academia&amp;rdquo;, for each of its different seasons.&lt;/li>
+&lt;li>Trakt has one entry for &amp;ldquo;My Hero Academia&amp;rdquo;, with 6 seasons inside it.&lt;/li>
+&lt;/ul>
+&lt;p>This same pattern continues for many different series — as well as some movies —
+which makes it annoying to efficiently categorise and manage a library.&lt;/p>
+&lt;hr>
+&lt;p>I hope this post helped you in some way. To me, Jellyfin is not just a media
+server, it&amp;rsquo;s also a playground for me to play with my collection of movies
+as well as find ways to efficiently organise them for future usage.&lt;/p>
+&lt;p>I simply chose Jellyfin as its the FOSS option, which makes it likely that
+in the odd case that it gets abandoned, I might be able to keep tweaking it
+to make sure that it &lt;em>just works™&lt;/em> and suits my needs.&lt;/p></content></item><item><title>Hello World</title><link>https://kakan.omg.lol/posts/hello-world/</link><pubDate>Sat, 18 Dec 2021 19:36:06 +0530</pubDate><author>kakan@disroot.org (KAKAN)</author><guid>https://kakan.omg.lol/posts/hello-world/</guid><description>Hello world! This is my first Hugo post
 Also, let&amp;rsquo;s just try including an image because why not:</description><content>&lt;p>Hello world! This is my first Hugo post&lt;/p>
 &lt;p>Also, let&amp;rsquo;s just try including an image because why not:&lt;/p>
 &lt;p>&lt;img src="https://kakan.omg.lol/cover.jpg" alt="Alt text">&lt;/p></content></item><item><title>About</title><link>https://kakan.omg.lol/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>kakan@disroot.org (KAKAN)</author><guid>https://kakan.omg.lol/about/</guid><description>Hi There! I go by KAKAN (He/Him)
@@ -42,15 +127,25 @@ I do have a Linkedin account, but I&amp;rsquo;d like to remain pseudonymous, so 
 &lt;img src="https://kakan.omg.lol/images/bmc-button.svg" alt="Buy me a coffee" class="left" style="height: 3em !important; width: 10em !important;" />
 &lt;/a>&lt;/p></content></item><item><title>Showcase</title><link>https://kakan.omg.lol/showcase/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>kakan@disroot.org (KAKAN)</author><guid>https://kakan.omg.lol/showcase/</guid><description>I&amp;rsquo;ve made some game servers, most of which are still running but are private.
 The public ones, for now (could already be private by the time someone reads this):
-VCMP CSGO at csgo.gboyz.xyz:27015 MTA:SA Aside from game servers, I&amp;rsquo;ve mostly done analysis on publicly available datasets, so there&amp;rsquo;s not much to show here.
-There are also a few more projects that I would like to try, but as of now, I&amp;rsquo;m doing my best to familiarise myself with the OSS world.</description><content>&lt;p>I&amp;rsquo;ve made some game servers, most of which are still running but are private.&lt;br>
+VCMP CSGO at csgo.gboyz.xyz:27015 MTA:SA I also love to self host projects, and currently, I&amp;rsquo;m self-hosting:
+Nextcloud The Lounge Jellyfin Paperless Various telegram &amp;amp; discord bots I&amp;rsquo;m looking forward to try and manage public servers for Matrix and Mastodon, but I&amp;rsquo;ve not done it yet.</description><content>&lt;p>I&amp;rsquo;ve made some game servers, most of which are still running but are private.&lt;br>
 The public ones, for now (&lt;em>could already be private by the time someone reads this&lt;/em>):&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="vcmp://vcmp.gboyz.xyz:8192">VCMP&lt;/a>&lt;/li>
 &lt;li>CSGO at &lt;a href="csgo.gboyz.xyz:27015">csgo.gboyz.xyz:27015&lt;/a>&lt;/li>
 &lt;li>MTA:SA&lt;/li>
 &lt;/ul>
-&lt;p>Aside from game servers, I&amp;rsquo;ve mostly done analysis on publicly available datasets, so there&amp;rsquo;s not much to show here.&lt;/p>
+&lt;p>I also love to self host projects, and currently, I&amp;rsquo;m self-hosting:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://nextcloud.com/">Nextcloud&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://thelounge.chat/">The Lounge&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://jellyfin.org/">Jellyfin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://paperless-ng.readthedocs.io/en/latest/">Paperless&lt;/a>&lt;/li>
+&lt;li>Various telegram &amp;amp; discord bots&lt;/li>
+&lt;/ul>
+&lt;p>I&amp;rsquo;m looking forward to try and manage public servers for &lt;a href="https://matrix.org/">Matrix&lt;/a> and &lt;a href="https://joinmastodon.org/">Mastodon&lt;/a>, but I&amp;rsquo;ve not done it yet.&lt;br>
+For now, only my &lt;a href="https://irc.kakan.omg.lol">The Lounge&lt;/a> is accessible to the public, along with the game servers.&lt;/p>
+&lt;p>Aside from game servers and self-hosting, I&amp;rsquo;ve mostly done analysis on publicly available datasets, so there&amp;rsquo;s not much to show here.&lt;/p>
 &lt;p>There are also a few more projects that I would like to try, but as of now, I&amp;rsquo;m doing my best to familiarise myself with the OSS world.
 That includes contributing in various non-code formats, like creating issues or taking part in discussions.&lt;/p>
 &lt;p>Most of that can be found in GitHub, GitLab and specific git servers related to various projects (&lt;em>like GNOME&lt;/em>)&lt;/p>
