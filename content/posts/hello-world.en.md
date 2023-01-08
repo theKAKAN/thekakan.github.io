@@ -17,4 +17,4 @@ Hello world! This is my first Hugo post
 
 Also, let's just try including an image because why not:
 
-![Alt text](/cover.jpg)
+{{< figure src="/cover.jpg" alt="And a caption, too!" position="center" style="border-radius: 8px;" caption="And a caption, too!" captionPosition="center" captionStyle="color: red;" >}}
