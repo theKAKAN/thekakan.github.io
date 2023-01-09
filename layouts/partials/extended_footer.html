@@ -11,3 +11,10 @@ To add an extended footer section, please create
       </div>
   </div>
 </footer>
+
+<script>
+  if (navigator.serviceWorker && !navigator.serviceWorker.controller)
+  {
+    navigator.serviceWorker.register('/serviceworker.js');
+  } 
+</script>
