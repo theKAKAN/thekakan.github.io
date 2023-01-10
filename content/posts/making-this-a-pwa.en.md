@@ -1,6 +1,8 @@
 +++
 title = "Making This a PWA"
 date = "2023-01-09T20:32:23+05:30"
+author = "KAKAN"
+authorTwitter = "ThKAKAN" #do not include @
 tags = ["frontend"]
 keywords = ["PWA", "Service worker", "Front end", "Static site"]
 description = "Turning this blog page into a Progressive Web App"
@@ -17,7 +19,7 @@ Before this, I did know that PWAs existed, and I always loved them. But, they mo
 
 The result? Indeed, they can and some do.
 
-Favicon generation: [Favicomatic](https://favicomatic.com/)
+Well, first, I generated a set of sample favicons using [Favicomatic](https://favicomatic.com/).
 
 Resources used:
  * https://blog.jeremylikness.com/blog/implement-progressive-web-app-hugo/
