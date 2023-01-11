@@ -5,7 +5,7 @@ paginate = 5
 enableGitInfo = true
 
 # Needed for RSS, it seems
-copyright = "Copyright © 2021 KAKAN. All Rights Reserved"
+copyright = "Copyright © 2023 KAKAN. All Rights Reserved"
 rssLimit = 20
 
 [author]
@@ -42,7 +42,7 @@ rssLimit = 20
   showLastUpdated = true
 
   # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+  favicon = "images/favicon/favicon.ico"
 
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
   # updatedDatePrefix = "Updated"

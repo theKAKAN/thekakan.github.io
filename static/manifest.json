@@ -1,6 +1,7 @@
 {
     "$schema": "https://json.schemastore.org/web-manifest-combined.json",
     "name": "KAKAN's Website",
+    "id": "/",
     "short_name": "K's Web",
     "start_url": "/",
     "scope": "/",
@@ -9,21 +10,40 @@
     "theme_color": "#FFA86A",
     "description": "My personal website and blog",
     "icons": [{
-      "src": "images/favicon/favicon-32x32.png",
-      "sizes": "32x32",
-      "type": "image/png"
+      "src": "images/favicon/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "maskable"
     }, {
       "src": "images/favicon/favicon-96x96.png",
       "sizes": "96x96",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable"
     }, {
       "src": "images/favicon/favicon-196x196.png",
       "sizes": "196x196",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }, {
       "src": "images/favicon/mstile-310x310.png",
-      "sizes": "310x310",
-      "type": "image/png"
-    }]
+      "sizes": "558x558",
+      "type": "image/png",
+      "purpose": "maskable"
+    }],
+    "shortcuts": [{
+        "name": "Contact Me",
+        "url": "/contact-me",
+        "icons": [{
+          "src": "images/favicon/favicon-96x96.png",
+          "sizes": "96x96"
+        }]
+      }, {
+        "name": "Posts",
+        "url": "/",
+        "icons": [{
+          "src": "images/favicon/favicon-96x96.png",
+          "sizes": "96x96"
+        }]
+      }]
   }
   
