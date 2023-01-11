@@ -8,6 +8,33 @@
 
 const cacheName = 'files';
 
+const baseFiles = [
+  // Base files
+  '/',
+  '/404.html',
+  // Different static pages
+  '/about/',
+  '/contact-me/',
+  '/showcase/',
+  // Other resources
+  '/bundle.min.js',
+  '/styles.css',
+  '/manifest.json',
+  '/fonts/FiraCode-Bold.woff',
+  '/fonts/FiraCode-Regular.woff'
+  // Fetch other files via searching href links, maybe
+];
+
+addEventListener("install", event => {
+  console.log("Service worker installed");
+  baseFiles.map( async function(key) {
+    const myCache = await caches.open(cacheName);
+    const fetchPromise = await fetch(key);
+    myCache.put(key, fetchPromise);
+  });
+});
+
+
 addEventListener('fetch',  fetchEvent => {
   const request = fetchEvent.request;
   if (request.method !== 'GET') {
