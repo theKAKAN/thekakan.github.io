@@ -92,3 +92,9 @@ rssLimit = 20
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
