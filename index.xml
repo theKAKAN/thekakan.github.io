@@ -112,13 +112,14 @@ And a caption, too!</description><content>&lt;p>Hello world! This is my first Hu
 &lt;figure class="center" >
 &lt;img src="https://kakan.omg.lol/cover.jpg" alt="And a caption, too!" style="border-radius: 8px;" />
 &lt;figcaption class="center" style="color: red;" >And a caption, too!&lt;/figcaption>
-&lt;/figure></content></item><item><title>About</title><link>https://kakan.omg.lol/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>kakan@disroot.org (KAKAN)</author><guid>https://kakan.omg.lol/about/</guid><description>Hi There! I go by KAKAN (He/Him)
+&lt;/figure></content></item><item><title>About</title><link>https://kakan.omg.lol/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>kakan@disroot.org (KAKAN)</author><guid>https://kakan.omg.lol/about/</guid><description>This section is my introduction. To find things that I&amp;rsquo;m familar with in IT/software, check out my Showcase.
+Hi There! I go by KAKAN (He/Him)
 &amp;hellip;or Hazel, based on one of my favourite characters and claimed eye colour.
 I&amp;rsquo;m a student who likes playing with data, aiming to be a backend dev.
 I like meeting with new people and learning new stuff!
 It&amp;rsquo;s fun!
-While I am studying at a university, I&amp;rsquo;m mostly self-taught. I also make game servers, for fun and experience.
-I&amp;rsquo;m not a big fan of Facebook Meta, but I&amp;rsquo;ve quite a few socials that you can find at my Contact Me page</description><content>&lt;h1 id="hi-there">Hi There!&lt;/h1>
+While I am studying at a university, I&amp;rsquo;m mostly self-taught.</description><content>&lt;p class="framed">This section is my introduction. To find things that I&amp;rsquo;m familar with in IT/software, check out my &lt;a href="https://kakan.omg.lol/showcase/">Showcase&lt;/a>.&lt;/p>
+&lt;h1 id="hi-there">Hi There!&lt;/h1>
 &lt;p>I go by KAKAN (&lt;em>He/Him&lt;/em>)&lt;/p>
 &lt;p>&amp;hellip;or Hazel, based on one of my favourite characters and claimed eye colour.&lt;/p>
 &lt;p>I&amp;rsquo;m a student who likes playing with data, aiming to be a backend dev.&lt;br>
@@ -158,10 +159,37 @@ I do have a Linkedin account, but I&amp;rsquo;d like to remain pseudonymous, so 
 &lt;h1 id="like-what-i-do">Like what I do?&lt;/h1>
 &lt;p>&lt;a href="https://www.buymeacoffee.com/kakan">
 &lt;img src="https://kakan.omg.lol/images/bmc-button.svg" alt="Buy me a coffee" class="left" style="height: 3em !important; width: 10em !important;" />
-&lt;/a>&lt;/p></content></item><item><title>Showcase</title><link>https://kakan.omg.lol/showcase/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>kakan@disroot.org (KAKAN)</author><guid>https://kakan.omg.lol/showcase/</guid><description>I&amp;rsquo;ve made some game servers, most of which are still running but are private.
-The public ones, for now (could already be private by the time someone reads this):
-VCMP CSGO at csgo.gboyz.xyz:27015 MTA:SA I also love to self host projects, and currently, I&amp;rsquo;m self-hosting:
-Nextcloud The Lounge Jellyfin Paperless Various telegram &amp;amp; discord bots I&amp;rsquo;m looking forward to try and manage public servers for Matrix and Mastodon, but I&amp;rsquo;ve not done it yet.</description><content>&lt;p>I&amp;rsquo;ve made some game servers, most of which are still running but are private.&lt;br>
+&lt;/a>&lt;/p></content></item><item><title>Showcase</title><link>https://kakan.omg.lol/showcase/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>kakan@disroot.org (KAKAN)</author><guid>https://kakan.omg.lol/showcase/</guid><description>Things I&amp;rsquo;m most comfortable with:
+Languages: Python, PHP, TS/JS, Java, C/C++, Bash and Lua Frameworks: Laravel(PHP), React, Vue, Svelte(TS/JS) and have used many more Databases: PostgreSQL, SQLite, MongoDB, MySQL Other tech: Docker/Podman, Ansible I&amp;rsquo;m currently learning and very much interested in automation libraries, like Ansible, Terraform and container orchestration like Kubernetes.
+I also use many different cloud services. However, I&amp;rsquo;m most familar with:
+AWS Azure DigitalOcean (Referral Link) Linode Currently, I&amp;rsquo;m trying out Oracle Cloud, mostly because of their generous free tier.</description><content>&lt;p>Things I&amp;rsquo;m most comfortable with:&lt;/p>
+&lt;ul>
+&lt;li>Languages: Python, PHP, TS/JS, Java, C/C++, Bash and Lua&lt;/li>
+&lt;li>Frameworks: Laravel(&lt;em>PHP&lt;/em>), React, Vue, Svelte(&lt;em>TS/JS&lt;/em>) and have used many more&lt;/li>
+&lt;li>Databases: PostgreSQL, SQLite, MongoDB, MySQL&lt;/li>
+&lt;li>Other tech: Docker/Podman, Ansible&lt;/li>
+&lt;/ul>
+&lt;p>I&amp;rsquo;m currently learning and very much interested in automation libraries, like &lt;a href="https://www.ansible.com/">Ansible&lt;/a>, &lt;a href="https://www.terraform.io/">Terraform&lt;/a> and container orchestration like &lt;a href="https://kubernetes.io/">Kubernetes&lt;/a>.&lt;/p>
+&lt;p>I also use many different cloud services. However, I&amp;rsquo;m most familar with:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://aws.amazon.com/">AWS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://azure.microsoft.com/en-us/">Azure&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://m.do.co/c/257cf65ea05c">DigitalOcean&lt;/a> (Referral Link)&lt;/li>
+&lt;li>&lt;a href="">Linode&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Currently, I&amp;rsquo;m trying out &lt;a href="https://cloud.oracle.com/">Oracle Cloud&lt;/a>, mostly because of their generous free tier. It&amp;rsquo;s very attractive, as a student.&lt;/p>
+&lt;p>I have tried different BaaS options including:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://aws.amazon.com/lambda/">AWS Lambda&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://firebase.google.com/">Firebase&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://workers.cloudflare.com/">Cloudflare Workers&lt;/a> (&lt;em>This website is hosted on Cloudflare Pages btw&lt;/em>)&lt;/li>
+&lt;/ul>
+&lt;p>&amp;hellip;and self-hosted ones like:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://supabase.com/">Supabase&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pocketbase.io/">Pocketbase&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Aside from the skills I learnt, I&amp;rsquo;ve made some game servers, most of which are still running but are private.&lt;br>
 The public ones, for now (&lt;em>could already be private by the time someone reads this&lt;/em>):&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="vcmp://vcmp.gboyz.xyz:8192">VCMP&lt;/a>&lt;/li>
@@ -178,7 +206,7 @@ The public ones, for now (&lt;em>could already be private by the time someone re
 &lt;/ul>
 &lt;p>I&amp;rsquo;m looking forward to try and manage public servers for &lt;a href="https://matrix.org/">Matrix&lt;/a> and &lt;a href="https://joinmastodon.org/">Mastodon&lt;/a>, but I&amp;rsquo;ve not done it yet.&lt;br>
 For now, only my &lt;a href="https://irc.kakan.omg.lol">The Lounge&lt;/a> is accessible to the public, along with the game servers.&lt;/p>
-&lt;p>Aside from game servers and self-hosting, I&amp;rsquo;ve mostly done analysis on publicly available datasets, so there&amp;rsquo;s not much to show here.&lt;/p>
+&lt;p>Aside from game servers and self-hosting, I&amp;rsquo;ve mostly done analysis on publicly available datasets, so there&amp;rsquo;s not much to show here. However, most of it was done using a combination of Python, Numpy, Pandas and SQLAlchemy.&lt;/p>
 &lt;p>There are also a few more projects that I would like to try, but as of now, I&amp;rsquo;m doing my best to familiarise myself with the OSS world.
 That includes contributing in various non-code formats, like creating issues or taking part in discussions.&lt;/p>
 &lt;p>Most of that can be found in GitHub, GitLab and specific git servers related to various projects (&lt;em>like GNOME&lt;/em>)&lt;/p>
