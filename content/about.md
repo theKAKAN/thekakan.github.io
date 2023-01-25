@@ -7,6 +7,9 @@ showFullContent = true
 readingTime = false
 +++
 
+This section is my introduction. To find things that I'm familar with in IT/software, check out my [Showcase]({{< relref "showcase.md">}}).
+{.framed}
+
 # Hi There!
 
 I go by KAKAN (_He/Him_)
