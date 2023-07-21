@@ -22,7 +22,7 @@ rssLimit = 20
   themeColor = "orange"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+  showMenuItems = 5
 
   # show selector to switch language
   showLanguageSelector = false
@@ -93,6 +93,10 @@ rssLimit = 20
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase/"
+      [[languages.en.menu.main]]
+        identifier = "github"
+        name = "GitHub"
+        url = "https://github.com/theKAKAN"
 
 [markup]
   [markup.goldmark]
